@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function swap()
+        {
+            var a= document.getElementById("image1").src;
+            var b= document.getElementById("image2").src;
+            document.getElementById("image1").src=b;
+            document.getElementById("image2").src=a;
+            
+
+        }
+    </script>
+</head>
+<body>
+    <img  src="https://avatars.githubusercontent.com/u/181659070?v=4"width="200px" height="200px" id="image1"/>
+    <img  src="img.jpeg"width="200px" height="200px" id="image2"/>
+    <button onclick="swap()">Swap</button>
+</body>
+</html>
